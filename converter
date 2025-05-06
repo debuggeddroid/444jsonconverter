@@ -1,0 +1,910 @@
+<!DOCTYPE html><html lang="en" class="h-full w-full"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="/_next/static/css/eb53bc320c43c2b0.css" data-precedence="next"/><link rel="stylesheet" href="/_next/static/css/48340cfe5c3cfec7.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-f55dbf8ed3ea8eeb.js"/><script src="/_next/static/chunks/dc6d687c-8b6a29f4739719cd.js" async=""></script><script src="/_next/static/chunks/b6261da7-0be38a1b98f1006e.js" async=""></script><script src="/_next/static/chunks/7237-2cfd9f38cad2fbf2.js" async=""></script><script src="/_next/static/chunks/main-app-d49cd5b13e7f2cba.js" async=""></script><script src="/_next/static/chunks/5343-7e382460cfe641fa.js" async=""></script><script src="/_next/static/chunks/885-2d3c6469fd2e9a01.js" async=""></script><script src="/_next/static/chunks/app/link/layout-138e58f3c21876e9.js" async=""></script><script src="/_next/static/chunks/8695-0c4f64fbb5ce8f16.js" async=""></script><script src="/_next/static/chunks/7246-23290606153b3304.js" async=""></script><script src="/_next/static/chunks/1855-bb3551758cbc6b20.js" async=""></script><script src="/_next/static/chunks/2466-1700b2b4ae80f0bf.js" async=""></script><script src="/_next/static/chunks/app/global-error-41249b716f910f38.js" async=""></script><script src="/_next/static/chunks/9511-a4f559277915e5f7.js" async=""></script><script src="/_next/static/chunks/app/layout-2816f0ff8ad01919.js" async=""></script><script async="" src="https://kit.fontawesome.com/2c15cc0cc7.js" crossorigin="anonymous"></script><script src="/_next/static/chunks/7834-90970678ce803d5d.js" async=""></script><script src="/_next/static/chunks/6162-ff0c01fd386363ac.js" async=""></script><script src="/_next/static/chunks/2403-4788b90ff336a2f2.js" async=""></script><script src="/_next/static/chunks/app/link/%5Bslug%5D/(catch-all)/%5B...path%5D/page-6e25aa87a3baf33d.js" async=""></script><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/><title>New Page</title><meta name="description" content="https://json-editor-with-versioning-344.created.app"/><meta property="og:title" content="New Page"/><meta property="og:description" content="https://json-editor-with-versioning-344.created.app"/><meta property="og:site_name" content="JSON Editor with Versioning"/><meta property="og:image:type" content="image/png"/><meta property="og:image" content="https://json-editor-with-versioning-344.created.app/link/json-editor-with-versioning-344/opengraph-image?fe7ec8d988bc4631"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="New Page"/><meta name="twitter:description" content="https://json-editor-with-versioning-344.created.app"/><meta name="twitter:image:type" content="image/png"/><meta name="twitter:image" content="https://json-editor-with-versioning-344.created.app/link/json-editor-with-versioning-344/twitter-image?fe7ec8d988bc4631"/><meta name="next-size-adjust"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&amp;display=block" rel="stylesheet"/><script>!function(t){function e(){var e=this||self;e.globalThis=e,delete t.prototype._T_}"object"!=typeof globalThis&&(this?e():(t.defineProperty(t.prototype,"_T_",{configurable:!0,get:e}),_T_))}(Object);</script><script src="/_next/static/chunks/polyfills-42372ed130431b0a.js" noModule=""></script></head><body class="h-full w-full"><style>*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}/*
+! tailwindcss v3.4.14 | MIT License | https://tailwindcss.com
+*//*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: #e5e7eb; /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+7. Disable tap highlights on iOS
+*/
+
+html,
+:host {
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  tab-size: 4; /* 3 */
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
+  font-feature-settings: normal; /* 5 */
+  font-variation-settings: normal; /* 6 */
+  -webkit-tap-highlight-color: transparent; /* 7 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0; /* 1 */
+  line-height: inherit; /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+  border-top-width: 1px; /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-feature-settings: normal; /* 2 */
+  font-variation-settings: normal; /* 3 */
+  font-size: 1em; /* 4 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+  border-collapse: collapse; /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-feature-settings: inherit; /* 1 */
+  font-variation-settings: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  font-weight: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  letter-spacing: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button,
+input:where([type='button']),
+input:where([type='reset']),
+input:where([type='submit']) {
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+dialog {
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+:disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+[hidden]:where(:not([hidden="until-found"])) {
+  display: none;
+}
+  .fixed {
+  position: fixed;
+}
+  .absolute {
+  position: absolute;
+}
+  .relative {
+  position: relative;
+}
+  .inset-0 {
+  inset: 0px;
+}
+  .left-2 {
+  left: 0.5rem;
+}
+  .right-2 {
+  right: 0.5rem;
+}
+  .top-2 {
+  top: 0.5rem;
+}
+  .z-50 {
+  z-index: 50;
+}
+  .mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+  .mb-2 {
+  margin-bottom: 0.5rem;
+}
+  .mb-4 {
+  margin-bottom: 1rem;
+}
+  .ml-2 {
+  margin-left: 0.5rem;
+}
+  .mr-2 {
+  margin-right: 0.5rem;
+}
+  .mt-2 {
+  margin-top: 0.5rem;
+}
+  .mt-4 {
+  margin-top: 1rem;
+}
+  .flex {
+  display: flex;
+}
+  .h-\[60vh\] {
+  height: 60vh;
+}
+  .max-h-\[90vh\] {
+  max-height: 90vh;
+}
+  .min-h-screen {
+  min-height: 100vh;
+}
+  .w-80 {
+  width: 20rem;
+}
+  .w-\[90\%\] {
+  width: 90%;
+}
+  .w-full {
+  width: 100%;
+}
+  .max-w-2xl {
+  max-width: 42rem;
+}
+  .flex-1 {
+  flex: 1 1 0%;
+}
+  .touch-manipulation {
+  touch-action: manipulation;
+}
+  .flex-col {
+  flex-direction: column;
+}
+  .items-start {
+  align-items: flex-start;
+}
+  .items-center {
+  align-items: center;
+}
+  .justify-end {
+  justify-content: flex-end;
+}
+  .justify-center {
+  justify-content: center;
+}
+  .justify-between {
+  justify-content: space-between;
+}
+  .gap-2 {
+  gap: 0.5rem;
+}
+  .gap-4 {
+  gap: 1rem;
+}
+  .space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+  .overflow-y-auto {
+  overflow-y: auto;
+}
+  .whitespace-pre-wrap {
+  white-space: pre-wrap;
+}
+  .break-words {
+  overflow-wrap: break-word;
+}
+  .break-all {
+  word-break: break-all;
+}
+  .rounded {
+  border-radius: 0.25rem;
+}
+  .rounded-2xl {
+  border-radius: 1rem;
+}
+  .rounded-lg {
+  border-radius: 0.5rem;
+}
+  .rounded-md {
+  border-radius: 0.375rem;
+}
+  .border {
+  border-width: 1px;
+}
+  .border-2 {
+  border-width: 2px;
+}
+  .border-blue-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(96 165 250 / var(--tw-border-opacity));
+}
+  .border-green-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(74 222 128 / var(--tw-border-opacity));
+}
+  .bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+  .bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+  .bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+  .bg-gray-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
+  .bg-green-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+}
+  .bg-purple-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(168 85 247 / var(--tw-bg-opacity));
+}
+  .bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+  .bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+  .bg-opacity-50 {
+  --tw-bg-opacity: 0.5;
+}
+  .p-2 {
+  padding: 0.5rem;
+}
+  .p-4 {
+  padding: 1rem;
+}
+  .px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+  .px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+  .py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+  .py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+  .py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+  .pt-12 {
+  padding-top: 3rem;
+}
+  .text-center {
+  text-align: center;
+}
+  .font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+  .text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+  .text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+  .text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+  .text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+  .font-bold {
+  font-weight: 700;
+}
+  .font-semibold {
+  font-weight: 600;
+}
+  .text-blue-400 {
+  --tw-text-opacity: 1;
+  color: rgb(96 165 250 / var(--tw-text-opacity));
+}
+  .text-blue-500 {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+  .text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+  .text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+  .text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+  .text-green-400 {
+  --tw-text-opacity: 1;
+  color: rgb(74 222 128 / var(--tw-text-opacity));
+}
+  .text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+  .text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+  .shadow-lg {
+  --tw-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+  .shadow-sm {
+  --tw-shadow: 0 1px 2px 0 rgba(0,0,0,0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+  .file\:mr-2::file-selector-button {
+  margin-right: 0.5rem;
+}
+  .file\:rounded-none::file-selector-button {
+  border-radius: 0px;
+}
+  .file\:border-0::file-selector-button {
+  border-width: 0px;
+}
+  .file\:bg-blue-50::file-selector-button {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 246 255 / var(--tw-bg-opacity));
+}
+  .file\:px-3::file-selector-button {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+  .file\:py-2::file-selector-button {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+  .file\:text-sm::file-selector-button {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+  .file\:font-semibold::file-selector-button {
+  font-weight: 600;
+}
+  .file\:text-blue-700::file-selector-button {
+  --tw-text-opacity: 1;
+  color: rgb(29 78 216 / var(--tw-text-opacity));
+}
+  .hover\:bg-blue-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+}
+  .hover\:bg-gray-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+}
+  .hover\:bg-gray-800:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
+  .hover\:bg-green-50:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 253 244 / var(--tw-bg-opacity));
+}
+  .hover\:bg-green-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 163 74 / var(--tw-bg-opacity));
+}
+  .hover\:bg-purple-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(147 51 234 / var(--tw-bg-opacity));
+}
+  .hover\:bg-red-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+}
+  .hover\:text-blue-700:hover {
+  --tw-text-opacity: 1;
+  color: rgb(29 78 216 / var(--tw-text-opacity));
+}
+  .hover\:text-gray-700:hover {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+  .hover\:text-red-700:hover {
+  --tw-text-opacity: 1;
+  color: rgb(185 28 28 / var(--tw-text-opacity));
+}
+  .hover\:file\:bg-blue-100::file-selector-button:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(219 234 254 / var(--tw-bg-opacity));
+}
+  .active\:bg-green-700:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 128 61 / var(--tw-bg-opacity));
+}
+  .active\:bg-purple-700:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(126 34 206 / var(--tw-bg-opacity));
+}
+  .active\:bg-red-700:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
+}
+  @media (min-width: 768px) {
+
+  .md\:h-96 {
+    height: 24rem;
+  }
+
+  .md\:w-auto {
+    width: auto;
+  }
+
+  .md\:flex-initial {
+    flex: 0 1 auto;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:items-center {
+    align-items: center;
+  }
+
+  .md\:p-4 {
+    padding: 1rem;
+  }
+
+  .md\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .md\:file\:mr-4::file-selector-button {
+    margin-right: 1rem;
+  }
+
+  .md\:file\:px-4::file-selector-button {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+</style><style data-twind="" id="twind-styles"></style><div class="__className_d65c78 relative h-full w-full"><!--$--><div class="p-2 md:p-4 max-w-2xl mx-auto min-h-screen relative bg-gray-200"><div class="absolute top-2 left-2"><button class="px-3 py-1 rounded-md bg-blue-500 hover:bg-blue-600 text-white">Update Log</button></div><div class="absolute top-2 right-2"><button class="px-3 py-1 rounded-md bg-black hover:bg-gray-800 text-white">Admin</button></div><div class="text-center pt-12 mb-4"><h1 class="text-xl md:text-2xl font-bold break-words">UNDERDOG&#x27;S JSON FIXER</h1></div><div class="mb-4 flex justify-between items-center w-full"><div class="flex flex-col gap-2"><span class="text-sm text-gray-500">No file selected</span><input type="file" accept=".json" class="w-full text-sm text-gray-500 file:mr-2 md:file:mr-4  file:py-2 file:px-3 md:file:px-4 file:rounded-none file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100 touch-manipulation"/></div><div class="flex gap-2"><button class="px-4 py-2 text-sm border-2 border-green-400 text-green-400 rounded-2xl hover:bg-green-50">Shared Files</button><button class="px-4 py-2 text-sm border-2 border-blue-400 text-blue-400 rounded-2xl hover:bg-green-50">Save File</button></div></div><textarea class="w-full h-[60vh] md:h-96 p-2 font-mono border rounded shadow-sm text-base" placeholder="Fix your JSON here..."></textarea><div class="mt-4 flex flex-col md:flex-row justify-between items-start md:items-center gap-2"><div class="flex flex-col w-full gap-2"><div class="flex gap-2 w-full md:w-auto"><button class="px-4 py-3 md:py-2 rounded-md bg-purple-500 text-white hover:bg-purple-600 active:bg-purple-700 flex-1 md:flex-initial">Shrink</button><button class="px-4 py-3 md:py-2 rounded-md bg-green-500 text-white hover:bg-green-600 active:bg-green-700 flex-1 md:flex-initial">Fix</button><button class="px-4 py-3 md:py-2 rounded-md bg-red-500 text-white hover:bg-red-600 active:bg-red-700 flex-1 md:flex-initial">Clear</button></div><div class="text-sm text-gray-600 text-center">Made by underdog</div></div></div></div><!--/$--></div><!--$--><!--$!--><template data-dgst="BAILOUT_TO_CLIENT_SIDE_RENDERING"></template><!--/$--><!--/$--><!--$--><!--/$--><script src="/_next/static/chunks/webpack-f55dbf8ed3ea8eeb.js" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>self.__next_f.push([1,"1:HL[\"/_next/static/media/a34f9d1faa5f3315-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n2:HL[\"/_next/static/css/eb53bc320c43c2b0.css\",\"style\"]\n3:HL[\"/_next/static/css/48340cfe5c3cfec7.css\",\"style\"]\n"])</script><script>self.__next_f.push([1,"4:I[60905,[],\"\"]\n7:I[84204,[],\"\"]\n9:I[69822,[],\"\"]\na:\"$Sreact.suspense\"\nb:I[96783,[\"5343\",\"static/chunks/5343-7e382460cfe641fa.js\",\"885\",\"static/chunks/885-2d3c6469fd2e9a01.js\",\"9098\",\"static/chunks/app/link/layout-138e58f3c21876e9.js\"],\"Analytics\"]\ne:I[83502,[\"5343\",\"static/chunks/5343-7e382460cfe641fa.js\",\"8695\",\"static/chunks/8695-0c4f64fbb5ce8f16.js\",\"7246\",\"static/chunks/7246-23290606153b3304.js\",\"1855\",\"static/chunks/1855-bb3551758cbc6b20.js\",\"2466\",\"static/chunks/2466-1700b2b4ae80f0bf.js\",\"6470\",\"static/chunks/app/global-error-41249b716f910f38.js\"],\"default\"]\n8:[\"slug\",\"json-editor-with-versioning-344\",\"d\"]\nf:[]\n"])</script><script>self.__next_f.push([1,"0:[\"$\",\"$L4\",null,{\"buildId\":\"z-6S8TrXCpLFG4LovzecI\",\"assetPrefix\":\"\",\"urlParts\":[\"\",\"\"],\"initialTree\":[\"\",{\"children\":[\"link\",{\"children\":[[\"slug\",\"json-editor-with-versioning-344\",\"d\"],{\"children\":[\"__PAGE__\",{}]}]}]},\"$undefined\",\"$undefined\",true],\"initialSeedData\":[\"\",{\"children\":[\"link\",{\"children\":[[\"slug\",\"json-editor-with-versioning-344\",\"d\"],{\"children\":[\"__PAGE__\",{},[[\"$L5\",\"$L6\",[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/eb53bc320c43c2b0.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/48340cfe5c3cfec7.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}]]],null],null]},[null,[\"$\",\"$L7\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"link\",\"children\",\"$8\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L9\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[\"$\",\"div\",null,{\"className\":\"flex justify-center\",\"children\":[\"$\",\"div\",null,{\"className\":\"mt-12 flex flex-col items-center justify-center text-[#32333e]\",\"children\":[[\"$\",\"h1\",null,{\"className\":\"mb-[12px] font-[600] text-[72px] leading-[120%]\",\"children\":\"404\"}],[\"$\",\"p\",null,{\"className\":\"mb-[16px] font-[500] text-[20px] leading-[140%]\",\"children\":\"Looks like you're lost.\"}],[\"$\",\"p\",null,{\"className\":\"font-[470] text-[14px] leading-[140%]\",\"children\":\"The page you are looking for does not exist.\"}]]}]}],\"notFoundStyles\":[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/eb53bc320c43c2b0.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}]]}]],null]},[[null,[[\"$\",\"$L7\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"link\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L9\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\"}],[\"$\",\"$a\",null,{\"children\":[\"$\",\"$Lb\",null,{}]}]]],null],null]},[[null,\"$Lc\"],null],null],\"couldBeIntercepted\":false,\"initialHead\":[null,\"$Ld\"],\"globalErrorComponent\":\"$e\",\"missingSlots\":\"$Wf\"}]\n"])</script><script>self.__next_f.push([1,"10:I[2327,[\"5343\",\"static/chunks/5343-7e382460cfe641fa.js\",\"9511\",\"static/chunks/9511-a4f559277915e5f7.js\",\"3185\",\"static/chunks/app/layout-2816f0ff8ad01919.js\"],\"default\"]\n"])</script><script>self.__next_f.push([1,"c:[\"$\",\"html\",null,{\"lang\":\"en\",\"className\":\"h-full w-full\",\"children\":[[\"$\",\"head\",null,{\"children\":[[\"$\",\"link\",null,{\"rel\":\"preconnect\",\"href\":\"https://fonts.googleapis.com\"}],[\"$\",\"link\",null,{\"rel\":\"preconnect\",\"href\":\"https://fonts.gstatic.com\",\"crossOrigin\":\"anonymous\"}],[\"$\",\"link\",null,{\"href\":\"https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600\u0026display=block\",\"rel\":\"stylesheet\"}],[\"$\",\"script\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"!function(t){function e(){var e=this||self;e.globalThis=e,delete t.prototype._T_}\\\"object\\\"!=typeof globalThis\u0026\u0026(this?e():(t.defineProperty(t.prototype,\\\"_T_\\\",{configurable:!0,get:e}),_T_))}(Object);\"}}],[\"$\",\"script\",null,{\"async\":true,\"src\":\"https://kit.fontawesome.com/2c15cc0cc7.js\",\"crossOrigin\":\"anonymous\"}]]}],[\"$\",\"body\",null,{\"className\":\"h-full w-full\",\"children\":[\"$\",\"$L10\",null,{\"children\":[\"$\",\"$L7\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L9\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":\"404\"}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],\"notFoundStyles\":[]}]}]}]]}]\n"])</script><script>self.__next_f.push([1,"d:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"$\",\"meta\",\"1\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"2\",{\"children\":\"New Page\"}],[\"$\",\"meta\",\"3\",{\"name\":\"description\",\"content\":\"https://json-editor-with-versioning-344.created.app\"}],[\"$\",\"meta\",\"4\",{\"property\":\"og:title\",\"content\":\"New Page\"}],[\"$\",\"meta\",\"5\",{\"property\":\"og:description\",\"content\":\"https://json-editor-with-versioning-344.created.app\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:site_name\",\"content\":\"JSON Editor with Versioning\"}],[\"$\",\"meta\",\"7\",{\"property\":\"og:image:type\",\"content\":\"image/png\"}],[\"$\",\"meta\",\"8\",{\"property\":\"og:image\",\"content\":\"https://json-editor-with-versioning-344.created.app/link/json-editor-with-versioning-344/opengraph-image?fe7ec8d988bc4631\"}],[\"$\",\"meta\",\"9\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",\"10\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"11\",{\"name\":\"twitter:title\",\"content\":\"New Page\"}],[\"$\",\"meta\",\"12\",{\"name\":\"twitter:description\",\"content\":\"https://json-editor-with-versioning-344.created.app\"}],[\"$\",\"meta\",\"13\",{\"name\":\"twitter:image:type\",\"content\":\"image/png\"}],[\"$\",\"meta\",\"14\",{\"name\":\"twitter:image\",\"content\":\"https://json-editor-with-versioning-344.created.app/link/json-editor-with-versioning-344/twitter-image?fe7ec8d988bc4631\"}],[\"$\",\"meta\",\"15\",{\"name\":\"next-size-adjust\"}]]\n5:null\n"])</script><script>self.__next_f.push([1,"12:I[14397,[\"5343\",\"static/chunks/5343-7e382460cfe641fa.js\",\"8695\",\"static/chunks/8695-0c4f64fbb5ce8f16.js\",\"7834\",\"static/chunks/7834-90970678ce803d5d.js\",\"1855\",\"static/chunks/1855-bb3551758cbc6b20.js\",\"6162\",\"static/chunks/6162-ff0c01fd386363ac.js\",\"2466\",\"static/chunks/2466-1700b2b4ae80f0bf.js\",\"2403\",\"static/chunks/2403-4788b90ff336a2f2.js\",\"5309\",\"static/chunks/app/link/%5Bslug%5D/(catch-all)/%5B...path%5D/page-6e25aa87a3baf33d.js\"],\"ErrorBoundary\"]\n13:I[81529,[\"5343\",\"static/chunks/5343-7e382460cfe641fa.js\",\"8695\",\"static/chunks/8695-0c4f64fbb5ce8f16.js\",\"7834\",\"static/chunks/7834-90970678ce803d5d.js\",\"1855\",\"static/chunks/1855-bb3551758cbc6b20.js\",\"6162\",\"static/chunks/6162-ff0c01fd386363ac.js\",\"2466\",\"static/chunks/2466-1700b2b4ae80f0bf.js\",\"2403\",\"static/chunks/2403-4788b90ff336a2f2.js\",\"5309\",\"static/chunks/app/link/%5Bslug%5D/(catch-all)/%5B...path%5D/page-6e25aa87a3baf33d.js\"],\"AlertBox\"]\n14:I[95004,[\"5343\",\"static/chunks/5343-7e382460cfe641fa.js\",\"8695\",\"static/chunks/8695-0c4f64fbb5ce8f16.js\",\"7834\",\"static/chunks/7834-90970678ce803d5d.js\",\"1855\",\"static/chunks/1855-bb3551758cbc6b20.js\",\"6162\",\"static/chunks/6162-ff0c01fd386363ac.js\",\"2466\",\"static/chunks/2466-1700b2b4ae80f0bf.js\",\"2403\",\"static/chunks/2403-4788b90ff336a2f2.js\",\"5309\",\"static/chunks/app/link/%5Bslug%5D/(catch-all)/%5B...path%5D/page-6e25aa87a3baf33d.js\"],\"default\"]\n16:I[77466,[\"5343\",\"static/chunks/5343-7e382460cfe641fa.js\",\"8695\",\"static/chunks/8695-0c4f64fbb5ce8f16.js\",\"7834\",\"static/chunks/7834-90970678ce803d5d.js\",\"1855\",\"static/chunks/1855-bb3551758cbc6b20.js\",\"6162\",\"static/chunks/6162-ff0c01fd386363ac.js\",\"2466\",\"static/chunks/2466-1700b2b4ae80f0bf.js\",\"2403\",\"static/chunks/2403-4788b90ff336a2f2.js\",\"5309\",\"static/chunks/app/link/%5Bslug%5D/(catch-all)/%5B...path%5D/page-6e25aa87a3baf33d.js\"],\"BailoutToCSR\"]\n17:I[38647,[\"5343\",\"static/chunks/5343-7e382460cfe641fa.js\",\"8695\",\"static/chunks/8695-0c4f64fbb5ce8f16.js\",\"7834\",\"static/chunks/7834-90970678ce803d5d.js\",\"1855\",\"static/chunks/1855-bb3551758cbc6b20.js\",\"6162\",\"static/c"])</script><script>self.__next_f.push([1,"hunks/6162-ff0c01fd386363ac.js\",\"2466\",\"static/chunks/2466-1700b2b4ae80f0bf.js\",\"2403\",\"static/chunks/2403-4788b90ff336a2f2.js\",\"5309\",\"static/chunks/app/link/%5Bslug%5D/(catch-all)/%5B...path%5D/page-6e25aa87a3baf33d.js\"],\"default\"]\n11:T4824,"])</script><script>self.__next_f.push([1,"*, ::before, ::after {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-gradient-from-position:  ;\n  --tw-gradient-via-position:  ;\n  --tw-gradient-to-position:  ;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n  --tw-contain-size:  ;\n  --tw-contain-layout:  ;\n  --tw-contain-paint:  ;\n  --tw-contain-style:  ;\n}\n\n::backdrop {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-gradient-from-position:  ;\n  --tw-gradient-via-position:  ;\n  --tw-gradient-to-position:  ;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n  --tw-contain-size:  ;\n  --tw-contain-layout:  ;\n  --tw-contain-paint:  ;\n  --tw-contain-style:  ;\n}/*\n! tailwindcss v3.4.14 | MIT License | https://tailwindcss.com\n*//*\n1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)\n2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)\n*/\n\n*,\n::before,\n::after {\n  box-sizing: border-box; /* 1 */\n  border-width: 0; /* 2 */\n  border-style: solid; /* 2 */\n  border-color: #e5e7eb; /* 2 */\n}\n\n::before,\n::after {\n  --tw-content: '';\n}\n\n/*\n1. Use a consistent sensible line-height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n3. Use a more readable tab size.\n4. Use the user's configured `sans` font-family by default.\n5. Use the user's configured `sans` font-feature-settings by default.\n6. Use the user's configured `sans` font-variation-settings by default.\n7. Disable tap highlights on iOS\n*/\n\nhtml,\n:host {\n  line-height: 1.5; /* 1 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n  -moz-tab-size: 4; /* 3 */\n  tab-size: 4; /* 3 */\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; /* 4 */\n  font-feature-settings: normal; /* 5 */\n  font-variation-settings: normal; /* 6 */\n  -webkit-tap-highlight-color: transparent; /* 7 */\n}\n\n/*\n1. Remove the margin in all browsers.\n2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.\n*/\n\nbody {\n  margin: 0; /* 1 */\n  line-height: inherit; /* 2 */\n}\n\n/*\n1. Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n3. Ensure horizontal rules are visible by default.\n*/\n\nhr {\n  height: 0; /* 1 */\n  color: inherit; /* 2 */\n  border-top-width: 1px; /* 3 */\n}\n\n/*\nAdd the correct text decoration in Chrome, Edge, and Safari.\n*/\n\nabbr:where([title]) {\n  text-decoration: underline dotted;\n}\n\n/*\nRemove the default font size and weight for headings.\n*/\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-size: inherit;\n  font-weight: inherit;\n}\n\n/*\nReset links to optimize for opt-in styling instead of opt-out.\n*/\n\na {\n  color: inherit;\n  text-decoration: inherit;\n}\n\n/*\nAdd the correct font weight in Edge and Safari.\n*/\n\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/*\n1. Use the user's configured `mono` font-family by default.\n2. Use the user's configured `mono` font-feature-settings by default.\n3. Use the user's configured `mono` font-variation-settings by default.\n4. Correct the odd `em` font sizing in all browsers.\n*/\n\ncode,\nkbd,\nsamp,\npre {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace; /* 1 */\n  font-feature-settings: normal; /* 2 */\n  font-variation-settings: normal; /* 3 */\n  font-size: 1em; /* 4 */\n}\n\n/*\nAdd the correct font size in all browsers.\n*/\n\nsmall {\n  font-size: 80%;\n}\n\n/*\nPrevent `sub` and `sup` elements from affecting the line height in all browsers.\n*/\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/*\n1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n3. Remove gaps between table borders by default.\n*/\n\ntable {\n  text-indent: 0; /* 1 */\n  border-color: inherit; /* 2 */\n  border-collapse: collapse; /* 3 */\n}\n\n/*\n1. Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n3. Remove default padding in all browsers.\n*/\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit; /* 1 */\n  font-feature-settings: inherit; /* 1 */\n  font-variation-settings: inherit; /* 1 */\n  font-size: 100%; /* 1 */\n  font-weight: inherit; /* 1 */\n  line-height: inherit; /* 1 */\n  letter-spacing: inherit; /* 1 */\n  color: inherit; /* 1 */\n  margin: 0; /* 2 */\n  padding: 0; /* 3 */\n}\n\n/*\nRemove the inheritance of text transform in Edge and Firefox.\n*/\n\nbutton,\nselect {\n  text-transform: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Remove default button styles.\n*/\n\nbutton,\ninput:where([type='button']),\ninput:where([type='reset']),\ninput:where([type='submit']) {\n  -webkit-appearance: button; /* 1 */\n  background-color: transparent; /* 2 */\n  background-image: none; /* 2 */\n}\n\n/*\nUse the modern Firefox focus style for all focusable elements.\n*/\n\n:-moz-focusring {\n  outline: auto;\n}\n\n/*\nRemove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)\n*/\n\n:-moz-ui-invalid {\n  box-shadow: none;\n}\n\n/*\nAdd the correct vertical alignment in Chrome and Firefox.\n*/\n\nprogress {\n  vertical-align: baseline;\n}\n\n/*\nCorrect the cursor style of increment and decrement buttons in Safari.\n*/\n\n::-webkit-inner-spin-button,\n::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/*\n1. Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/\n\n[type='search'] {\n  -webkit-appearance: textfield; /* 1 */\n  outline-offset: -2px; /* 2 */\n}\n\n/*\nRemove the inner padding in Chrome and Safari on macOS.\n*/\n\n::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to `inherit` in Safari.\n*/\n\n::-webkit-file-upload-button {\n  -webkit-appearance: button; /* 1 */\n  font: inherit; /* 2 */\n}\n\n/*\nAdd the correct display in Chrome and Safari.\n*/\n\nsummary {\n  display: list-item;\n}\n\n/*\nRemoves the default spacing and border for appropriate elements.\n*/\n\nblockquote,\ndl,\ndd,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nhr,\nfigure,\np,\npre {\n  margin: 0;\n}\n\nfieldset {\n  margin: 0;\n  padding: 0;\n}\n\nlegend {\n  padding: 0;\n}\n\nol,\nul,\nmenu {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n/*\nReset default styling for dialogs.\n*/\ndialog {\n  padding: 0;\n}\n\n/*\nPrevent resizing textareas horizontally by default.\n*/\n\ntextarea {\n  resize: vertical;\n}\n\n/*\n1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)\n2. Set the default placeholder color to the user's configured gray 400 color.\n*/\n\ninput::placeholder,\ntextarea::placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\n/*\nSet the default cursor for buttons.\n*/\n\nbutton,\n[role=\"button\"] {\n  cursor: pointer;\n}\n\n/*\nMake sure disabled buttons don't get the pointer cursor.\n*/\n:disabled {\n  cursor: default;\n}\n\n/*\n1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)\n2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)\n   This can trigger a poorly considered lint error in some tools but is included by design.\n*/\n\nimg,\nsvg,\nvideo,\ncanvas,\naudio,\niframe,\nembed,\nobject {\n  display: block; /* 1 */\n  vertical-align: middle; /* 2 */\n}\n\n/*\nConstrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)\n*/\n\nimg,\nvideo {\n  max-width: 100%;\n  height: auto;\n}\n\n/* Make elements with the HTML hidden attribute stay hidden by default */\n[hidden]:where(:not([hidden=\"until-found\"])) {\n  display: none;\n}\n  .fixed {\n  position: fixed;\n}\n  .absolute {\n  position: absolute;\n}\n  .relative {\n  position: relative;\n}\n  .inset-0 {\n  inset: 0px;\n}\n  .left-2 {\n  left: 0.5rem;\n}\n  .right-2 {\n  right: 0.5rem;\n}\n  .top-2 {\n  top: 0.5rem;\n}\n  .z-50 {\n  z-index: 50;\n}\n  .mx-auto {\n  margin-left: auto;\n  margin-right: auto;\n}\n  .mb-2 {\n  margin-bottom: 0.5rem;\n}\n  .mb-4 {\n  margin-bottom: 1rem;\n}\n  .ml-2 {\n  margin-left: 0.5rem;\n}\n  .mr-2 {\n  margin-right: 0.5rem;\n}\n  .mt-2 {\n  margin-top: 0.5rem;\n}\n  .mt-4 {\n  margin-top: 1rem;\n}\n  .flex {\n  display: flex;\n}\n  .h-\\[60vh\\] {\n  height: 60vh;\n}\n  .max-h-\\[90vh\\] {\n  max-height: 90vh;\n}\n  .min-h-screen {\n  min-height: 100vh;\n}\n  .w-80 {\n  width: 20rem;\n}\n  .w-\\[90\\%\\] {\n  width: 90%;\n}\n  .w-full {\n  width: 100%;\n}\n  .max-w-2xl {\n  max-width: 42rem;\n}\n  .flex-1 {\n  flex: 1 1 0%;\n}\n  .touch-manipulation {\n  touch-action: manipulation;\n}\n  .flex-col {\n  flex-direction: column;\n}\n  .items-start {\n  align-items: flex-start;\n}\n  .items-center {\n  align-items: center;\n}\n  .justify-end {\n  justify-content: flex-end;\n}\n  .justify-center {\n  justify-content: center;\n}\n  .justify-between {\n  justify-content: space-between;\n}\n  .gap-2 {\n  gap: 0.5rem;\n}\n  .gap-4 {\n  gap: 1rem;\n}\n  .space-y-4 \u003e :not([hidden]) ~ :not([hidden]) {\n  --tw-space-y-reverse: 0;\n  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));\n  margin-bottom: calc(1rem * var(--tw-space-y-reverse));\n}\n  .overflow-y-auto {\n  overflow-y: auto;\n}\n  .whitespace-pre-wrap {\n  white-space: pre-wrap;\n}\n  .break-words {\n  overflow-wrap: break-word;\n}\n  .break-all {\n  word-break: break-all;\n}\n  .rounded {\n  border-radius: 0.25rem;\n}\n  .rounded-2xl {\n  border-radius: 1rem;\n}\n  .rounded-lg {\n  border-radius: 0.5rem;\n}\n  .rounded-md {\n  border-radius: 0.375rem;\n}\n  .border {\n  border-width: 1px;\n}\n  .border-2 {\n  border-width: 2px;\n}\n  .border-blue-400 {\n  --tw-border-opacity: 1;\n  border-color: rgb(96 165 250 / var(--tw-border-opacity));\n}\n  .border-green-400 {\n  --tw-border-opacity: 1;\n  border-color: rgb(74 222 128 / var(--tw-border-opacity));\n}\n  .bg-black {\n  --tw-bg-opacity: 1;\n  background-color: rgb(0 0 0 / var(--tw-bg-opacity));\n}\n  .bg-blue-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(59 130 246 / var(--tw-bg-opacity));\n}\n  .bg-gray-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(229 231 235 / var(--tw-bg-opacity));\n}\n  .bg-gray-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(107 114 128 / var(--tw-bg-opacity));\n}\n  .bg-green-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(34 197 94 / var(--tw-bg-opacity));\n}\n  .bg-purple-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(168 85 247 / var(--tw-bg-opacity));\n}\n  .bg-red-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(239 68 68 / var(--tw-bg-opacity));\n}\n  .bg-white {\n  --tw-bg-opacity: 1;\n  background-color: rgb(255 255 255 / var(--tw-bg-opacity));\n}\n  .bg-opacity-50 {\n  --tw-bg-opacity: 0.5;\n}\n  .p-2 {\n  padding: 0.5rem;\n}\n  .p-4 {\n  padding: 1rem;\n}\n  .px-3 {\n  padding-left: 0.75rem;\n  padding-right: 0.75rem;\n}\n  .px-4 {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\n  .py-1 {\n  padding-top: 0.25rem;\n  padding-bottom: 0.25rem;\n}\n  .py-2 {\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem;\n}\n  .py-3 {\n  padding-top: 0.75rem;\n  padding-bottom: 0.75rem;\n}\n  .pt-12 {\n  padding-top: 3rem;\n}\n  .text-center {\n  text-align: center;\n}\n  .font-mono {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace;\n}\n  .text-2xl {\n  font-size: 1.5rem;\n  line-height: 2rem;\n}\n  .text-base {\n  font-size: 1rem;\n  line-height: 1.5rem;\n}\n  .text-sm {\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n}\n  .text-xl {\n  font-size: 1.25rem;\n  line-height: 1.75rem;\n}\n  .font-bold {\n  font-weight: 700;\n}\n  .font-semibold {\n  font-weight: 600;\n}\n  .text-blue-400 {\n  --tw-text-opacity: 1;\n  color: rgb(96 165 250 / var(--tw-text-opacity));\n}\n  .text-blue-500 {\n  --tw-text-opacity: 1;\n  color: rgb(59 130 246 / var(--tw-text-opacity));\n}\n  .text-gray-500 {\n  --tw-text-opacity: 1;\n  color: rgb(107 114 128 / var(--tw-text-opacity));\n}\n  .text-gray-600 {\n  --tw-text-opacity: 1;\n  color: rgb(75 85 99 / var(--tw-text-opacity));\n}\n  .text-gray-700 {\n  --tw-text-opacity: 1;\n  color: rgb(55 65 81 / var(--tw-text-opacity));\n}\n  .text-green-400 {\n  --tw-text-opacity: 1;\n  color: rgb(74 222 128 / var(--tw-text-opacity));\n}\n  .text-red-500 {\n  --tw-text-opacity: 1;\n  color: rgb(239 68 68 / var(--tw-text-opacity));\n}\n  .text-white {\n  --tw-text-opacity: 1;\n  color: rgb(255 255 255 / var(--tw-text-opacity));\n}\n  .shadow-lg {\n  --tw-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);\n  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n  .shadow-sm {\n  --tw-shadow: 0 1px 2px 0 rgba(0,0,0,0.05);\n  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n  .file\\:mr-2::file-selector-button {\n  margin-right: 0.5rem;\n}\n  .file\\:rounded-none::file-selector-button {\n  border-radius: 0px;\n}\n  .file\\:border-0::file-selector-button {\n  border-width: 0px;\n}\n  .file\\:bg-blue-50::file-selector-button {\n  --tw-bg-opacity: 1;\n  background-color: rgb(239 246 255 / var(--tw-bg-opacity));\n}\n  .file\\:px-3::file-selector-button {\n  padding-left: 0.75rem;\n  padding-right: 0.75rem;\n}\n  .file\\:py-2::file-selector-button {\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem;\n}\n  .file\\:text-sm::file-selector-button {\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n}\n  .file\\:font-semibold::file-selector-button {\n  font-weight: 600;\n}\n  .file\\:text-blue-700::file-selector-button {\n  --tw-text-opacity: 1;\n  color: rgb(29 78 216 / var(--tw-text-opacity));\n}\n  .hover\\:bg-blue-600:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(37 99 235 / var(--tw-bg-opacity));\n}\n  .hover\\:bg-gray-600:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(75 85 99 / var(--tw-bg-opacity));\n}\n  .hover\\:bg-gray-800:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(31 41 55 / var(--tw-bg-opacity));\n}\n  .hover\\:bg-green-50:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(240 253 244 / var(--tw-bg-opacity));\n}\n  .hover\\:bg-green-600:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(22 163 74 / var(--tw-bg-opacity));\n}\n  .hover\\:bg-purple-600:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(147 51 234 / var(--tw-bg-opacity));\n}\n  .hover\\:bg-red-600:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(220 38 38 / var(--tw-bg-opacity));\n}\n  .hover\\:text-blue-700:hover {\n  --tw-text-opacity: 1;\n  color: rgb(29 78 216 / var(--tw-text-opacity));\n}\n  .hover\\:text-gray-700:hover {\n  --tw-text-opacity: 1;\n  color: rgb(55 65 81 / var(--tw-text-opacity));\n}\n  .hover\\:text-red-700:hover {\n  --tw-text-opacity: 1;\n  color: rgb(185 28 28 / var(--tw-text-opacity));\n}\n  .hover\\:file\\:bg-blue-100::file-selector-button:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(219 234 254 / var(--tw-bg-opacity));\n}\n  .active\\:bg-green-700:active {\n  --tw-bg-opacity: 1;\n  background-color: rgb(21 128 61 / var(--tw-bg-opacity));\n}\n  .active\\:bg-purple-700:active {\n  --tw-bg-opacity: 1;\n  background-color: rgb(126 34 206 / var(--tw-bg-opacity));\n}\n  .active\\:bg-red-700:active {\n  --tw-bg-opacity: 1;\n  background-color: rgb(185 28 28 / var(--tw-bg-opacity));\n}\n  @media (min-width: 768px) {\n\n  .md\\:h-96 {\n    height: 24rem;\n  }\n\n  .md\\:w-auto {\n    width: auto;\n  }\n\n  .md\\:flex-initial {\n    flex: 0 1 auto;\n  }\n\n  .md\\:flex-row {\n    flex-direction: row;\n  }\n\n  .md\\:items-center {\n    align-items: center;\n  }\n\n  .md\\:p-4 {\n    padding: 1rem;\n  }\n\n  .md\\:py-2 {\n    padding-top: 0.5rem;\n    padding-bottom: 0.5rem;\n  }\n\n  .md\\:text-2xl {\n    font-size: 1.5rem;\n    line-height: 2rem;\n  }\n\n  .md\\:text-base {\n    font-size: 1rem;\n    line-height: 1.5rem;\n  }\n\n  .md\\:file\\:mr-4::file-selector-button {\n    margin-right: 1rem;\n  }\n\n  .md\\:file\\:px-4::file-selector-button {\n    padding-left: 1rem;\n    padding-right: 1rem;\n  }\n}\n"])</script><script>self.__next_f.push([1,"15:Tdd72,"])</script><script>self.__next_f.push([1,"function MainComponent() {\n    const [jsonInput, setJsonInput] = useState(\"\");\n    const [error, setError] = useState(\"\");\n    const [isValidJson, setIsValidJson] = useState(false);\n    const [showAdminModal, setShowAdminModal] = useState(false);\n    const [password, setPassword] = useState(\"\");\n    const [isAdmin, setIsAdmin] = useState(false);\n    const [isSiteEnabled, setIsSiteEnabled] = useState(true);\n    const [showUpdateLog, setShowUpdateLog] = useState(false);\n    const [updateLogs, setUpdateLogs] = useState([]);\n    const [newLogData, setNewLogData] = useState({\n        version: \"\",\n        description: \"\",\n        isPublic: true\n    });\n    const [editingLog, setEditingLog] = useState(null);\n    const [showPassword, setShowPassword] = useState(false);\n    const [downloadFileName, setDownloadFileName] = useState(\"\");\n    const [showDownloadModal, setShowDownloadModal] = useState(false);\n    const [showVisitors, setShowVisitors] = useState(false);\n    const [visitors, setVisitors] = useState([]);\n    const [sharedFiles, setSharedFiles] = useState([]);\n    const [showSharedFiles, setShowSharedFiles] = useState(false);\n    const [showReviews, setShowReviews] = useState(false);\n    const [reviewText, setReviewText] = useState(\"\");\n    const [reviews, setReviews] = useState([]);\n    const handleInputChange = (e)=\u003e{\n        const value = e.target.value;\n        setJsonInput(value);\n        setError(\"\");\n        setIsValidJson(false);\n    };\n    const handleFileUpload = (e)=\u003e{\n        const file = e.target.files[0];\n        if (!file) return;\n        const reader = new FileReader();\n        reader.onload = (event)=\u003e{\n            const content = event.target.result;\n            setJsonInput(content);\n            setError(\"\");\n            setIsValidJson(false);\n        };\n        reader.onerror = ()=\u003e{\n            setError(\"Error reading file\");\n            setIsValidJson(false);\n        };\n        reader.readAsText(file);\n    };\n    const handleDownload = ()=\u003e{\n        try {\n            const finalFileName = `[UD]${downloadFileName || \"edited\"}.json`;\n            const blob = new Blob([\n                jsonInput\n            ], {\n                type: \"application/json\"\n            });\n            const url = URL.createObjectURL(blob);\n            const link = document.createElement(\"a\");\n            link.href = url;\n            link.download = finalFileName;\n            document.body.appendChild(link);\n            link.click();\n            document.body.removeChild(link);\n            URL.revokeObjectURL(url);\n            setShowDownloadModal(false);\n            setDownloadFileName(\"\");\n        } catch (err) {\n            setError(\"Error downloading file\");\n        }\n    };\n    const handleShrink = ()=\u003e{\n        try {\n            if (!jsonInput.trim()) {\n                setError(\"Please enter some JSON first\");\n                return;\n            }\n            // Parse and re-stringify to remove whitespace\n            const parsed = JSON.parse(jsonInput);\n            setJsonInput(JSON.stringify(parsed));\n            setIsValidJson(true);\n            setError(\"\");\n        } catch (err) {\n            setError(\"Invalid JSON format\");\n            setIsValidJson(false);\n        }\n    };\n    const handleShareFile = async ()=\u003e{\n        if (!jsonInput.trim() || !downloadFileName.trim()) {\n            setError(\"Please enter JSON content and filename\");\n            return;\n        }\n        try {\n            const response = await fetch(\"/api/shared-files\", {\n                method: \"POST\",\n                headers: {\n                    \"Content-Type\": \"application/json\"\n                },\n                body: JSON.stringify({\n                    method: \"POST\",\n                    body: {\n                        filename: downloadFileName,\n                        content: jsonInput\n                    }\n                })\n            });\n            if (!response.ok) {\n                throw new Error(\"Failed to share file\");\n            }\n            setShowDownloadModal(false);\n            setDownloadFileName(\"\");\n            fetchSharedFiles();\n            setShowSharedFiles(true);\n        } catch (err) {\n            setError(\"Failed to share file\");\n        }\n    };\n    const fetchSharedFiles = async ()=\u003e{\n        try {\n            const response = await fetch(\"/api/shared-files\", {\n                method: \"POST\",\n                headers: {\n                    \"Content-Type\": \"application/json\"\n                },\n                body: JSON.stringify({\n                    method: \"GET\"\n                })\n            });\n            if (!response.ok) {\n                throw new Error(\"Failed to fetch shared files\");\n            }\n            const data = await response.json();\n            setSharedFiles(data.files || []);\n        } catch (err) {\n            console.error(\"Error fetching shared files:\", err);\n        }\n    };\n    const handleDownloadSharedFile = async (id)=\u003e{\n        try {\n            const response = await fetch(\"/api/shared-files\", {\n                method: \"POST\",\n                headers: {\n                    \"Content-Type\": \"application/json\"\n                },\n                body: JSON.stringify({\n                    method: \"GET_FILE\",\n                    body: {\n                        id\n                    }\n                })\n            });\n            if (!response.ok) {\n                throw new Error(\"Failed to download file\");\n            }\n            const data = await response.json();\n            if (data.error) {\n                throw new Error(data.error);\n            }\n            const blob = new Blob([\n                data.file.content\n            ], {\n                type: \"application/json\"\n            });\n            const url = URL.createObjectURL(blob);\n            const link = document.createElement(\"a\");\n            link.href = url;\n            link.download = data.file.filename;\n            document.body.appendChild(link);\n            link.click();\n            document.body.removeChild(link);\n            URL.revokeObjectURL(url);\n            fetchSharedFiles();\n        } catch (err) {\n            setError(\"Failed to download file\");\n        }\n    };\n    const insertSix = ()=\u003e{\n        if (!jsonInput.trim()) {\n            setError(\"Please enter some JSON first\");\n            return;\n        }\n        try {\n            // Try to parse the current JSON first\n            let parsedJson = JSON.parse(jsonInput);\n            // If it already has version, just format it\n            if (parsedJson.version) {\n                setJsonInput(JSON.stringify(parsedJson, null, 2));\n            } else {\n                // If no version, add it\n                parsedJson = {\n                    version: 1,\n                    ...parsedJson\n                };\n                setJsonInput(JSON.stringify(parsedJson, null, 2));\n            }\n            setIsValidJson(true);\n            setError(\"\");\n        } catch (err) {\n            // If it's not valid JSON, try the old cleanup method\n            try {\n                let text = jsonInput;\n                text = text.replace(/\\{\"version\":\\s*1,/g, \"\");\n                text = text.replace(/\\{\\s*\\{/g, \"{\");\n                text = text.trim();\n                const newText = '{\"version\": 1,' + text;\n                // Try to parse it to make sure it's valid\n                JSON.parse(newText);\n                setJsonInput(newText);\n                setIsValidJson(true);\n                setError(\"\");\n            } catch (error) {\n                setError(\"Invalid JSON format\");\n                setIsValidJson(false);\n            }\n        }\n    };\n    const handleClear = ()=\u003e{\n        setJsonInput(\"\");\n        setError(\"\");\n        setIsValidJson(false);\n    };\n    const handleAdminLogin = ()=\u003e{\n        if (password === \"underdog335\") {\n            setIsAdmin(true);\n            setShowAdminModal(false);\n            setPassword(\"\");\n            setShowPassword(false);\n        } else {\n            setError(\"Invalid password\");\n            setTimeout(()=\u003esetError(\"\"), 3000);\n        }\n    };\n    const fetchReviews = async ()=\u003e{\n        try {\n            const response = await fetch(\"/api/reviews\", {\n                method: \"POST\",\n                headers: {\n                    \"Content-Type\": \"application/json\"\n                },\n                body: JSON.stringify({\n                    method: \"GET\"\n                })\n            });\n            if (!response.ok) {\n                throw new Error(\"Failed to fetch reviews\");\n            }\n            const data = await response.json();\n            setReviews(data.reviews || []);\n        } catch (err) {\n            console.error(\"Error fetching reviews:\", err);\n        }\n    };\n    const handleAddReview = async ()=\u003e{\n        if (!reviewText.trim()) {\n            setError(\"Please enter a review\");\n            return;\n        }\n        try {\n            const response = await fetch(\"/api/reviews\", {\n                method: \"POST\",\n                headers: {\n                    \"Content-Type\": \"application/json\"\n                },\n                body: JSON.stringify({\n                    method: \"POST\",\n                    body: {\n                        text: reviewText\n                    }\n                })\n            });\n            if (!response.ok) {\n                throw new Error(\"Failed to add review\");\n            }\n            setReviewText(\"\");\n            fetchReviews();\n        } catch (err) {\n            setError(\"Failed to add review\");\n        }\n    };\n    const handleDeleteReview = async (id)=\u003e{\n        try {\n            const response = await fetch(\"/api/reviews\", {\n                method: \"POST\",\n                headers: {\n                    \"Content-Type\": \"application/json\"\n                },\n                body: JSON.stringify({\n                    method: \"DELETE\",\n                    isAdmin,\n                    body: {\n                        id\n                    }\n                })\n            });\n            if (!response.ok) {\n                throw new Error(\"Failed to delete review\");\n            }\n            fetchReviews();\n        } catch (err) {\n            setError(\"Failed to delete review\");\n        }\n    };\n    const handleDeleteSharedFile = async (id)=\u003e{\n        try {\n            const response = await fetch(\"/api/shared-files\", {\n                method: \"POST\",\n                headers: {\n                    \"Content-Type\": \"application/json\"\n                },\n                body: JSON.stringify({\n                    method: \"DELETE\",\n                    isAdmin,\n                    body: {\n                        id\n                    }\n                })\n            });\n            if (!response.ok) {\n                throw new Error(\"Failed to delete file\");\n            }\n            fetchSharedFiles();\n        } catch (err) {\n            setError(\"Failed to delete file\");\n        }\n    };\n    const handleClearAllSharedFiles = async ()=\u003e{\n        if (!isAdmin) return;\n        try {\n            const response = await fetch(\"/api/shared-files\", {\n                method: \"POST\",\n                headers: {\n                    \"Content-Type\": \"application/json\"\n                },\n                body: JSON.stringify({\n                    method: \"DELETE\",\n                    isAdmin,\n                    body: {\n                        id: \"all\"\n                    }\n                })\n            });\n            if (!response.ok) {\n                throw new Error(\"Failed to clear all files\");\n            }\n            fetchSharedFiles();\n        } catch (err) {\n            setError(\"Failed to clear all files\");\n        }\n    };\n    useEffect(()=\u003e{\n        fetchReviews();\n    }, []);\n    const handleAddUpdateLog = async ()=\u003e{\n        try {\n            const response = await fetch(\"/api/update-logs\", {\n                method: \"POST\",\n                headers: {\n                    \"Content-Type\": \"application/json\"\n                },\n                body: JSON.stringify({\n                    method: \"POST\",\n                    isAdmin,\n                    body: newLogData\n                })\n            });\n            if (!response.ok) {\n                throw new Error(\"Failed to add update log\");\n            }\n            setNewLogData({\n                version: \"\",\n                description: \"\",\n                isPublic: true\n            });\n            fetchUpdateLogs();\n        } catch (err) {\n            console.error(\"Error adding update log:\", err);\n            setError(\"Failed to add update log\");\n        }\n    };\n    const handleEditUpdateLog = async ()=\u003e{\n        if (!editingLog) return;\n        try {\n            const response = await fetch(\"/api/update-logs\", {\n                method: \"POST\",\n                headers: {\n                    \"Content-Type\": \"application/json\"\n                },\n                body: JSON.stringify({\n                    method: \"PUT\",\n                    isAdmin,\n                    body: editingLog\n                })\n            });\n            if (!response.ok) {\n                throw new Error(\"Failed to edit update log\");\n            }\n            setEditingLog(null);\n            fetchUpdateLogs();\n        } catch (err) {\n            console.error(\"Error editing update log:\", err);\n            setError(\"Failed to edit update log\");\n        }\n    };\n    const handleDeleteUpdateLog = async (id)=\u003e{\n        try {\n            const response = await fetch(\"/api/update-logs\", {\n                method: \"POST\",\n                headers: {\n                    \"Content-Type\": \"application/json\"\n                },\n                body: JSON.stringify({\n                    method: \"DELETE\",\n                    isAdmin,\n                    body: {\n                        id\n                    }\n                })\n            });\n            if (!response.ok) {\n                throw new Error(\"Failed to delete update log\");\n            }\n            fetchUpdateLogs();\n        } catch (err) {\n            console.error(\"Error deleting update log:\", err);\n            setError(\"Failed to delete update log\");\n        }\n    };\n    const fetchVisitors = useCallback(async ()=\u003e{\n        if (!isAdmin) return;\n        try {\n            const response = await fetch(\"/api/visitors\", {\n                method: \"POST\",\n                headers: {\n                    \"Content-Type\": \"application/json\"\n                },\n                body: JSON.stringify({\n                    method: \"GET\",\n                    isAdmin\n                })\n            });\n            if (!response.ok) {\n                throw new Error(\"Failed to fetch visitors\");\n            }\n            const data = await response.json();\n            setVisitors(data.visitors || []);\n        } catch (err) {\n            console.error(\"Error fetching visitors:\", err);\n            setError(\"Failed to load visitors\");\n        }\n    }, [\n        isAdmin\n    ]);\n    useEffect(()=\u003e{\n        const trackVisit = async ()=\u003e{\n            try {\n                await fetch(\"/api/visitors\", {\n                    method: \"POST\",\n                    headers: {\n                        \"Content-Type\": \"application/json\"\n                    },\n                    body: JSON.stringify({\n                        method: \"POST\",\n                        ip: \"client-ip\",\n                        userAgent: navigator.userAgent,\n                        pageUrl: window.location.pathname\n                    })\n                });\n            } catch (err) {\n                console.error(\"Error tracking visit:\", err);\n            }\n        };\n        trackVisit();\n        const interval = setInterval(trackVisit, 60000); // Update every minute\n        return ()=\u003eclearInterval(interval);\n    }, []);\n    useEffect(()=\u003e{\n        if (isAdmin \u0026\u0026 showVisitors) {\n            fetchVisitors();\n            const interval = setInterval(fetchVisitors, 60000); // Refresh every minute\n            return ()=\u003eclearInterval(interval);\n        }\n    }, [\n        isAdmin,\n        showVisitors,\n        fetchVisitors\n    ]);\n    useEffect(()=\u003e{\n        fetchSharedFiles();\n    }, []);\n    const handleOpenReviews = ()=\u003e{\n        setShowSharedFiles(false);\n        setShowReviews(true);\n    };\n    const handleCloseReviews = ()=\u003e{\n        setShowReviews(false);\n        setShowSharedFiles(true);\n    };\n    const handleReviewButtonClick = ()=\u003e{\n        setShowReviews(true);\n    };\n    if (!isSiteEnabled \u0026\u0026 !isAdmin) {\n        return /*#__PURE__*/ React.createElement(\"div\", {\n            className: \"flex items-center justify-center min-h-screen\",\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 501,\n                columnNumber: 7\n            },\n            __self: this\n        }, /*#__PURE__*/ React.createElement(\"h1\", {\n            className: \"text-2xl font-bold\",\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 502,\n                columnNumber: 9\n            },\n            __self: this\n        }, \"Site is currently disabled by admin\"));\n    }\n    return /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"p-2 md:p-4 max-w-2xl mx-auto min-h-screen relative bg-gray-200\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 510,\n            columnNumber: 5\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"absolute top-2 left-2\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 512,\n            columnNumber: 7\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"button\", {\n        onClick: ()=\u003esetShowUpdateLog(true),\n        className: \"px-3 py-1 rounded-md bg-blue-500 hover:bg-blue-600 text-white\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 513,\n            columnNumber: 9\n        },\n        __self: this\n    }, \"Update Log\")), /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"absolute top-2 right-2\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 522,\n            columnNumber: 7\n        },\n        __self: this\n    }, isAdmin ? /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"flex gap-2\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 524,\n            columnNumber: 11\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"button\", {\n        onClick: ()=\u003esetShowVisitors(true),\n        className: \"px-3 py-1 rounded-md bg-blue-500 hover:bg-blue-600 text-white\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 525,\n            columnNumber: 13\n        },\n        __self: this\n    }, \"Live Visitors\"), /*#__PURE__*/ React.createElement(\"button\", {\n        onClick: ()=\u003esetIsAdmin(false),\n        className: \"px-3 py-1 rounded-md bg-black hover:bg-gray-800 text-white\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 531,\n            columnNumber: 13\n        },\n        __self: this\n    }, \"Logout\")) : /*#__PURE__*/ React.createElement(\"button\", {\n        onClick: ()=\u003esetShowAdminModal(true),\n        className: \"px-3 py-1 rounded-md bg-black hover:bg-gray-800 text-white\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 539,\n            columnNumber: 11\n        },\n        __self: this\n    }, \"Admin\")), /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"text-center pt-12 mb-4\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 549,\n            columnNumber: 7\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"h1\", {\n        className: \"text-xl md:text-2xl font-bold break-words\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 550,\n            columnNumber: 9\n        },\n        __self: this\n    }, \"UNDERDOG'S JSON FIXER\")), showUpdateLog \u0026\u0026 /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 557,\n            columnNumber: 9\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"bg-white p-4 rounded-lg shadow-lg w-[90%] max-w-2xl max-h-[90vh] overflow-y-auto\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 558,\n            columnNumber: 11\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"flex justify-between items-center mb-4\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 559,\n            columnNumber: 13\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"h2\", {\n        className: \"text-xl font-bold\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 560,\n            columnNumber: 15\n        },\n        __self: this\n    }, \"Update Log\"), /*#__PURE__*/ React.createElement(\"button\", {\n        onClick: ()=\u003esetShowUpdateLog(false),\n        className: \"text-gray-500 hover:text-gray-700\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 561,\n            columnNumber: 15\n        },\n        __self: this\n    }, \"✕\")), isAdmin \u0026\u0026 !editingLog \u0026\u0026 /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"mb-4 p-4 border rounded\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 570,\n            columnNumber: 15\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"h3\", {\n        className: \"font-bold mb-2\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 571,\n            columnNumber: 17\n        },\n        __self: this\n    }, \"Add New Update\"), /*#__PURE__*/ React.createElement(\"input\", {\n        type: \"text\",\n        placeholder: \"Version\",\n        value: newLogData.version,\n        onChange: (e)=\u003esetNewLogData({\n                ...newLogData,\n                version: e.target.value\n            }),\n        className: \"w-full p-2 border rounded mb-2\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 572,\n            columnNumber: 17\n        },\n        __self: this\n    }), /*#__PURE__*/ React.createElement(\"textarea\", {\n        placeholder: \"Description\",\n        value: newLogData.description,\n        onChange: (e)=\u003esetNewLogData({\n                ...newLogData,\n                description: e.target.value\n            }),\n        className: \"w-full p-2 border rounded mb-2\",\n        rows: \"3\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 581,\n            columnNumber: 17\n        },\n        __self: this\n    }), /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"flex items-center mb-2\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 593,\n            columnNumber: 17\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"input\", {\n        type: \"checkbox\",\n        checked: newLogData.isPublic,\n        onChange: (e)=\u003esetNewLogData({\n                ...newLogData,\n                isPublic: e.target.checked\n            }),\n        className: \"mr-2\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 594,\n            columnNumber: 19\n        },\n        __self: this\n    }), /*#__PURE__*/ React.createElement(\"label\", {\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 605,\n            columnNumber: 19\n        },\n        __self: this\n    }, \"Public\")), /*#__PURE__*/ React.createElement(\"button\", {\n        onClick: handleAddUpdateLog,\n        className: \"px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 607,\n            columnNumber: 17\n        },\n        __self: this\n    }, \"Add Update\")), isAdmin \u0026\u0026 editingLog \u0026\u0026 /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"mb-4 p-4 border rounded\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 617,\n            columnNumber: 15\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"h3\", {\n        className: \"font-bold mb-2\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 618,\n            columnNumber: 17\n        },\n        __self: this\n    }, \"Edit Update\"), /*#__PURE__*/ React.createElement(\"input\", {\n        type: \"text\",\n        placeholder: \"Version\",\n        value: editingLog.version,\n        onChange: (e)=\u003esetEditingLog({\n                ...editingLog,\n                version: e.target.value\n            }),\n        className: \"w-full p-2 border rounded mb-2\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 619,\n            columnNumber: 17\n        },\n        __self: this\n    }), /*#__PURE__*/ React.createElement(\"textarea\", {\n        placeholder: \"Description\",\n        value: editingLog.description,\n        onChange: (e)=\u003esetEditingLog({\n                ...editingLog,\n                description: e.target.value\n            }),\n        className: \"w-full p-2 border rounded mb-2\",\n        rows: \"3\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 628,\n            columnNumber: 17\n        },\n        __self: this\n    }), /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"flex items-center mb-2\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 640,\n            columnNumber: 17\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"input\", {\n        type: \"checkbox\",\n        checked: editingLog.isPublic,\n        onChange: (e)=\u003esetEditingLog({\n                ...editingLog,\n                isPublic: e.target.checked\n            }),\n        className: \"mr-2\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 641,\n            columnNumber: 19\n        },\n        __self: this\n    }), /*#__PURE__*/ React.createElement(\"label\", {\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 652,\n            columnNumber: 19\n        },\n        __self: this\n    }, \"Public\")), /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"flex gap-2\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 654,\n            columnNumber: 17\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"button\", {\n        onClick: handleEditUpdateLog,\n        className: \"px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 655,\n            columnNumber: 19\n        },\n        __self: this\n    }, \"Save Changes\"), /*#__PURE__*/ React.createElement(\"button\", {\n        onClick: ()=\u003esetEditingLog(null),\n        className: \"px-4 py-2 bg-gray-500 text-white rounded hover:bg-gray-600\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 661,\n            columnNumber: 19\n        },\n        __self: this\n    }, \"Cancel\"))), /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"space-y-4\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 671,\n            columnNumber: 13\n        },\n        __self: this\n    }, updateLogs.map((log)=\u003e/*#__PURE__*/ React.createElement(\"div\", {\n            key: log.id,\n            className: \"p-4 border rounded\",\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 673,\n                columnNumber: 17\n            },\n            __self: this\n        }, /*#__PURE__*/ React.createElement(\"div\", {\n            className: \"flex justify-between items-start\",\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 674,\n                columnNumber: 19\n            },\n            __self: this\n        }, /*#__PURE__*/ React.createElement(\"div\", {\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 675,\n                columnNumber: 21\n            },\n            __self: this\n        }, /*#__PURE__*/ React.createElement(\"h3\", {\n            className: \"font-bold\",\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 676,\n                columnNumber: 23\n            },\n            __self: this\n        }, log.version), /*#__PURE__*/ React.createElement(\"p\", {\n            className: \"text-sm text-gray-500\",\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 677,\n                columnNumber: 23\n            },\n            __self: this\n        }, new Date(log.date).toLocaleDateString())), isAdmin \u0026\u0026 /*#__PURE__*/ React.createElement(\"div\", {\n            className: \"flex gap-2\",\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 682,\n                columnNumber: 23\n            },\n            __self: this\n        }, /*#__PURE__*/ React.createElement(\"button\", {\n            onClick: ()=\u003esetEditingLog(log),\n            className: \"text-blue-500 hover:text-blue-700\",\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 683,\n                columnNumber: 25\n            },\n            __self: this\n        }, \"Edit\"), /*#__PURE__*/ React.createElement(\"button\", {\n            onClick: ()=\u003ehandleDeleteUpdateLog(log.id),\n            className: \"text-red-500 hover:text-red-700\",\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 689,\n                columnNumber: 25\n            },\n            __self: this\n        }, \"Delete\"))), /*#__PURE__*/ React.createElement(\"p\", {\n            className: \"mt-2 whitespace-pre-wrap\",\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 698,\n                columnNumber: 19\n            },\n            __self: this\n        }, log.description)))))), showAdminModal \u0026\u0026 /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 708,\n            columnNumber: 9\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"bg-white p-4 rounded-lg shadow-lg w-80\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 709,\n            columnNumber: 11\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"h2\", {\n        className: \"text-xl font-bold mb-4\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 710,\n            columnNumber: 13\n        },\n        __self: this\n    }, \"Admin Login\"), /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"relative\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 711,\n            columnNumber: 13\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"input\", {\n        type: showPassword ? \"text\" : \"password\",\n        value: password,\n        onChange: (e)=\u003esetPassword(e.target.value),\n        onKeyPress: (e)=\u003ee.key === \"Enter\" \u0026\u0026 handleAdminLogin(),\n        placeholder: \"Enter password\",\n        className: \"w-full p-2 border rounded mb-4\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 712,\n            columnNumber: 15\n        },\n        __self: this\n    }), /*#__PURE__*/ React.createElement(\"button\", {\n        type: \"button\",\n        onClick: ()=\u003esetShowPassword(!showPassword),\n        className: \"absolute right-2 top-2 text-gray-500 hover:text-gray-700\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 720,\n            columnNumber: 15\n        },\n        __self: this\n    }, showPassword ? \"Hide\" : \"Show\")), /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"flex justify-end gap-2\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 728,\n            columnNumber: 13\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"button\", {\n        onClick: ()=\u003e{\n            setShowAdminModal(false);\n            setPassword(\"\");\n            setShowPassword(false);\n        },\n        className: \"px-3 py-1 rounded-md bg-gray-500 hover:bg-gray-600 text-white\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 729,\n            columnNumber: 15\n        },\n        __self: this\n    }, \"Cancel\"), /*#__PURE__*/ React.createElement(\"button\", {\n        onClick: handleAdminLogin,\n        className: \"px-3 py-1 rounded-md bg-blue-500 hover:bg-blue-600 text-white\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 739,\n            columnNumber: 15\n        },\n        __self: this\n    }, \"Login\")))), showDownloadModal \u0026\u0026 /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 752,\n            columnNumber: 9\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"bg-white p-4 rounded-lg shadow-lg w-80\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 753,\n            columnNumber: 11\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"h2\", {\n        className: \"text-xl font-bold mb-4\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 754,\n            columnNumber: 13\n        },\n        __self: this\n    }, \"Save File\"), /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"mb-4\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 755,\n            columnNumber: 13\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"flex items-center mb-2\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 756,\n            columnNumber: 15\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"span\", {\n        className: \"text-gray-700 mr-2\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 757,\n            columnNumber: 17\n        },\n        __self: this\n    }, \"[UD]\"), /*#__PURE__*/ React.createElement(\"input\", {\n        type: \"text\",\n        value: downloadFileName,\n        onChange: (e)=\u003esetDownloadFileName(e.target.value),\n        placeholder: \"filename\",\n        className: \"flex-1 p-2 border rounded\",\n        onKeyPress: (e)=\u003ee.key === \"Enter\" \u0026\u0026 handleDownload(),\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 758,\n            columnNumber: 17\n        },\n        __self: this\n    }), /*#__PURE__*/ React.createElement(\"span\", {\n        className: \"text-gray-700 ml-2\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 766,\n            columnNumber: 17\n        },\n        __self: this\n    }, \".json\"))), /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"flex justify-end gap-2\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 769,\n            columnNumber: 13\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"button\", {\n        onClick: ()=\u003e{\n            setShowDownloadModal(false);\n            setDownloadFileName(\"\");\n        },\n        className: \"px-3 py-1 rounded-md bg-gray-500 hover:bg-gray-600 text-white\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 770,\n            columnNumber: 15\n        },\n        __self: this\n    }, \"Cancel\"), /*#__PURE__*/ React.createElement(\"button\", {\n        onClick: handleShareFile,\n        className: \"px-3 py-1 rounded-md bg-green-500 hover:bg-green-600 text-white\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 779,\n            columnNumber: 15\n        },\n        __self: this\n    }, \"Share\"), /*#__PURE__*/ React.createElement(\"button\", {\n        onClick: handleDownload,\n        className: \"px-3 py-1 rounded-md bg-blue-500 hover:bg-blue-600 text-white\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 785,\n            columnNumber: 15\n        },\n        __self: this\n    }, \"Download\")))), showReviews \u0026\u0026 /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 798,\n            columnNumber: 9\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"bg-white p-4 rounded-lg shadow-lg w-[90%] max-w-2xl max-h-[90vh] overflow-y-auto\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 799,\n            columnNumber: 11\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"flex justify-between items-center mb-4\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 800,\n            columnNumber: 13\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"h2\", {\n        className: \"text-xl font-bold\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 801,\n            columnNumber: 15\n        },\n        __self: this\n    }, \"Reviews\"), /*#__PURE__*/ React.createElement(\"button\", {\n        onClick: ()=\u003esetShowReviews(false),\n        className: \"text-gray-500 hover:text-gray-700\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 802,\n            columnNumber: 15\n        },\n        __self: this\n    }, \"✕\")), /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"mb-4\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 810,\n            columnNumber: 13\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"textarea\", {\n        value: reviewText,\n        onChange: (e)=\u003esetReviewText(e.target.value),\n        placeholder: \"Write your review...\",\n        className: \"w-full p-2 border rounded mb-2\",\n        rows: \"3\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 811,\n            columnNumber: 15\n        },\n        __self: this\n    }), /*#__PURE__*/ React.createElement(\"button\", {\n        onClick: handleAddReview,\n        className: \"px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 818,\n            columnNumber: 15\n        },\n        __self: this\n    }, \"Add Review\")), /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"space-y-4\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 826,\n            columnNumber: 13\n        },\n        __self: this\n    }, reviews.map((review)=\u003e/*#__PURE__*/ React.createElement(\"div\", {\n            key: review.id,\n            className: \"p-4 border rounded\",\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 828,\n                columnNumber: 17\n            },\n            __self: this\n        }, /*#__PURE__*/ React.createElement(\"div\", {\n            className: \"flex justify-between items-start\",\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 829,\n                columnNumber: 19\n            },\n            __self: this\n        }, /*#__PURE__*/ React.createElement(\"div\", {\n            className: \"flex-1\",\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 830,\n                columnNumber: 21\n            },\n            __self: this\n        }, /*#__PURE__*/ React.createElement(\"p\", {\n            className: \"whitespace-pre-wrap\",\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 831,\n                columnNumber: 23\n            },\n            __self: this\n        }, review.text), /*#__PURE__*/ React.createElement(\"p\", {\n            className: \"text-sm text-gray-500 mt-2\",\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 832,\n                columnNumber: 23\n            },\n            __self: this\n        }, new Date(review.created_at).toLocaleDateString())), isAdmin \u0026\u0026 /*#__PURE__*/ React.createElement(\"button\", {\n            onClick: ()=\u003ehandleDeleteReview(review.id),\n            className: \"ml-2 text-red-500 hover:text-red-700\",\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 837,\n                columnNumber: 23\n            },\n            __self: this\n        }, \"Delete\"))))))), showVisitors \u0026\u0026 /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 854,\n            columnNumber: 9\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"bg-white p-4 rounded-lg shadow-lg w-[90%] max-w-2xl max-h-[90vh] overflow-y-auto\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 855,\n            columnNumber: 11\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"flex justify-between items-center mb-4\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 856,\n            columnNumber: 13\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"div\", {\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 857,\n            columnNumber: 15\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"h2\", {\n        className: \"text-xl font-bold\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 858,\n            columnNumber: 17\n        },\n        __self: this\n    }, \"Live Visitors\"), /*#__PURE__*/ React.createElement(\"p\", {\n        className: \"text-sm text-gray-500\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 859,\n            columnNumber: 17\n        },\n        __self: this\n    }, visitors.length, \" active\", \" \", visitors.length === 1 ? \"visitor\" : \"visitors\")), /*#__PURE__*/ React.createElement(\"button\", {\n        onClick: ()=\u003esetShowVisitors(false),\n        className: \"text-gray-500 hover:text-gray-700\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 864,\n            columnNumber: 15\n        },\n        __self: this\n    }, \"✕\")), /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"space-y-4\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 872,\n            columnNumber: 13\n        },\n        __self: this\n    }, visitors.length === 0 ? /*#__PURE__*/ React.createElement(\"p\", {\n        className: \"text-gray-500 text-center\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 874,\n            columnNumber: 17\n        },\n        __self: this\n    }, \"No active visitors\") : visitors.map((visitor)=\u003e/*#__PURE__*/ React.createElement(\"div\", {\n            key: visitor.id,\n            className: \"p-4 border rounded\",\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 877,\n                columnNumber: 19\n            },\n            __self: this\n        }, /*#__PURE__*/ React.createElement(\"div\", {\n            className: \"flex flex-col gap-2\",\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 878,\n                columnNumber: 21\n            },\n            __self: this\n        }, /*#__PURE__*/ React.createElement(\"div\", {\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 879,\n                columnNumber: 23\n            },\n            __self: this\n        }, /*#__PURE__*/ React.createElement(\"span\", {\n            className: \"font-semibold\",\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 880,\n                columnNumber: 25\n            },\n            __self: this\n        }, \"Browser:\"), /*#__PURE__*/ React.createElement(\"span\", {\n            className: \"ml-2 break-all\",\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 881,\n                columnNumber: 25\n            },\n            __self: this\n        }, visitor.user_agent)), /*#__PURE__*/ React.createElement(\"div\", {\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 885,\n                columnNumber: 23\n            },\n            __self: this\n        }, /*#__PURE__*/ React.createElement(\"span\", {\n            className: \"font-semibold\",\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 886,\n                columnNumber: 25\n            },\n            __self: this\n        }, \"Last Activity:\"), /*#__PURE__*/ React.createElement(\"span\", {\n            className: \"ml-2\",\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 887,\n                columnNumber: 25\n            },\n            __self: this\n        }, new Date(visitor.last_seen).toLocaleString())))))))), showSharedFiles \u0026\u0026 /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 902,\n            columnNumber: 9\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"bg-white p-4 rounded-lg shadow-lg w-[90%] max-w-2xl max-h-[90vh] overflow-y-auto\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 903,\n            columnNumber: 11\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"flex justify-between items-center mb-4\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 904,\n            columnNumber: 13\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"div\", {\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 905,\n            columnNumber: 15\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"h2\", {\n        className: \"text-xl font-bold\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 906,\n            columnNumber: 17\n        },\n        __self: this\n    }, \"Shared Files\"), /*#__PURE__*/ React.createElement(\"p\", {\n        className: \"text-sm text-gray-500\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 907,\n            columnNumber: 17\n        },\n        __self: this\n    }, sharedFiles.length, \" \", sharedFiles.length === 1 ? \"file\" : \"files\", \" shared\")), /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"flex gap-2\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 912,\n            columnNumber: 15\n        },\n        __self: this\n    }, isAdmin \u0026\u0026 sharedFiles.length \u003e 0 \u0026\u0026 /*#__PURE__*/ React.createElement(\"button\", {\n        onClick: handleClearAllSharedFiles,\n        className: \"px-3 py-1 rounded-md bg-red-500 hover:bg-red-600 text-white\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 914,\n            columnNumber: 19\n        },\n        __self: this\n    }, \"Clear All\"), /*#__PURE__*/ React.createElement(\"button\", {\n        onClick: handleOpenReviews,\n        className: \"px-3 py-1 rounded-md bg-purple-500 hover:bg-purple-600 text-white\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 921,\n            columnNumber: 17\n        },\n        __self: this\n    }, \"Reviews\"), /*#__PURE__*/ React.createElement(\"button\", {\n        onClick: ()=\u003esetShowSharedFiles(false),\n        className: \"text-gray-500 hover:text-gray-700\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 927,\n            columnNumber: 17\n        },\n        __self: this\n    }, \"✕\"))), /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"space-y-4\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 936,\n            columnNumber: 13\n        },\n        __self: this\n    }, sharedFiles.length === 0 ? /*#__PURE__*/ React.createElement(\"p\", {\n        className: \"text-gray-500 text-center\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 938,\n            columnNumber: 17\n        },\n        __self: this\n    }, \"No shared files\") : sharedFiles.map((file)=\u003e/*#__PURE__*/ React.createElement(\"div\", {\n            key: file.id,\n            className: \"p-4 border rounded flex items-center gap-4\",\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 941,\n                columnNumber: 19\n            },\n            __self: this\n        }, /*#__PURE__*/ React.createElement(\"div\", {\n            className: \"flex-1\",\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 945,\n                columnNumber: 21\n            },\n            __self: this\n        }, /*#__PURE__*/ React.createElement(\"div\", {\n            className: \"flex items-center gap-2\",\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 946,\n                columnNumber: 23\n            },\n            __self: this\n        }, /*#__PURE__*/ React.createElement(\"h3\", {\n            className: \"font-semibold\",\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 947,\n                columnNumber: 25\n            },\n            __self: this\n        }, file.filename), /*#__PURE__*/ React.createElement(\"span\", {\n            className: \"text-sm text-gray-500\",\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 948,\n                columnNumber: 25\n            },\n            __self: this\n        }, \"• \", file.downloads, \" downloads\")), /*#__PURE__*/ React.createElement(\"p\", {\n            className: \"text-sm text-gray-500\",\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 952,\n                columnNumber: 23\n            },\n            __self: this\n        }, \"Shared \", new Date(file.created_at).toLocaleDateString())), /*#__PURE__*/ React.createElement(\"div\", {\n            className: \"flex gap-2\",\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 956,\n                columnNumber: 21\n            },\n            __self: this\n        }, /*#__PURE__*/ React.createElement(\"button\", {\n            onClick: ()=\u003ehandleDownloadSharedFile(file.id),\n            className: \"px-3 py-1 rounded-md bg-blue-500 hover:bg-blue-600 text-white\",\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 957,\n                columnNumber: 23\n            },\n            __self: this\n        }, \"Download\"), isAdmin \u0026\u0026 /*#__PURE__*/ React.createElement(\"button\", {\n            onClick: ()=\u003ehandleDeleteSharedFile(file.id),\n            className: \"px-3 py-1 rounded-md bg-red-500 hover:bg-red-600 text-white\",\n            __source: {\n                fileName: \"\u003canon\u003e\",\n                lineNumber: 964,\n                columnNumber: 25\n            },\n            __self: this\n        }, \"Delete\"))))))), /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"mb-4 flex justify-between items-center w-full\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 981,\n            columnNumber: 7\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"flex flex-col gap-2\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 982,\n            columnNumber: 9\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"span\", {\n        className: \"text-sm text-gray-500\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 983,\n            columnNumber: 11\n        },\n        __self: this\n    }, \"No file selected\"), /*#__PURE__*/ React.createElement(\"input\", {\n        type: \"file\",\n        accept: \".json\",\n        onChange: handleFileUpload,\n        className: \"w-full text-sm text-gray-500 file:mr-2 md:file:mr-4  file:py-2 file:px-3 md:file:px-4 file:rounded-none file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100 touch-manipulation\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 984,\n            columnNumber: 11\n        },\n        __self: this\n    })), /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"flex gap-2\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 998,\n            columnNumber: 9\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"button\", {\n        onClick: ()=\u003esetShowSharedFiles(true),\n        className: \"px-4 py-2 text-sm border-2 border-green-400 text-green-400 rounded-2xl hover:bg-green-50\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 999,\n            columnNumber: 11\n        },\n        __self: this\n    }, \"Shared Files\"), /*#__PURE__*/ React.createElement(\"button\", {\n        onClick: ()=\u003esetShowDownloadModal(true),\n        className: \"px-4 py-2 text-sm border-2 border-blue-400 text-blue-400 rounded-2xl hover:bg-green-50\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 1005,\n            columnNumber: 11\n        },\n        __self: this\n    }, \"Save File\"))), /*#__PURE__*/ React.createElement(\"textarea\", {\n        className: \"w-full h-[60vh] md:h-96 p-2 font-mono border rounded shadow-sm text-base\",\n        value: jsonInput,\n        onChange: handleInputChange,\n        placeholder: \"Fix your JSON here...\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 1014,\n            columnNumber: 7\n        },\n        __self: this\n    }), /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"mt-4 flex flex-col md:flex-row justify-between items-start md:items-center gap-2\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 1021,\n            columnNumber: 7\n        },\n        __self: this\n    }, error \u0026\u0026 /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"text-red-500 text-sm md:text-base\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 1023,\n            columnNumber: 11\n        },\n        __self: this\n    }, error), /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"flex flex-col w-full gap-2\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 1025,\n            columnNumber: 9\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"flex gap-2 w-full md:w-auto\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 1026,\n            columnNumber: 11\n        },\n        __self: this\n    }, /*#__PURE__*/ React.createElement(\"button\", {\n        onClick: handleShrink,\n        className: \"px-4 py-3 md:py-2 rounded-md bg-purple-500 text-white hover:bg-purple-600 active:bg-purple-700 flex-1 md:flex-initial\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 1027,\n            columnNumber: 13\n        },\n        __self: this\n    }, \"Shrink\"), /*#__PURE__*/ React.createElement(\"button\", {\n        onClick: insertSix,\n        className: \"px-4 py-3 md:py-2 rounded-md bg-green-500 text-white hover:bg-green-600 active:bg-green-700 flex-1 md:flex-initial\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 1033,\n            columnNumber: 13\n        },\n        __self: this\n    }, \"Fix\"), /*#__PURE__*/ React.createElement(\"button\", {\n        onClick: handleClear,\n        className: \"px-4 py-3 md:py-2 rounded-md bg-red-500 text-white hover:bg-red-600 active:bg-red-700 flex-1 md:flex-initial\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 1039,\n            columnNumber: 13\n        },\n        __self: this\n    }, \"Clear\")), /*#__PURE__*/ React.createElement(\"div\", {\n        className: \"text-sm text-gray-600 text-center\",\n        __source: {\n            fileName: \"\u003canon\u003e\",\n            lineNumber: 1046,\n            columnNumber: 11\n        },\n        __self: this\n    }, \"Made by underdog\"))));\n}\n"])</script><script>self.__next_f.push([1,"6:[false,[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"$11\"}}],[\"$\",\"style\",null,{\"data-twind\":\"\",\"id\":\"twind-styles\"}],[\"$\",\"div\",null,{\"className\":\"__className_d65c78 relative h-full w-full\",\"children\":[false,[\"$\",\"$L12\",null,{\"fallback\":[\"$\",\"div\",null,{\"className\":\"flex h-full w-full flex-col items-center justify-center\",\"children\":[\"$\",\"$L13\",null,{}]}],\"children\":[\"$\",\"$L14\",null,{\"compiledJS\":\"$15\",\"newDbEnabled\":true,\"authEnabled\":false,\"clientIntegrationsSrc\":[],\"isComponent\":false,\"projectId\":\"1e4da188-4fe3-4291-b898-ff3797b8ebea\",\"selectedRevisionId\":\"ace297d4-f298-450c-a298-5603f2b25098\",\"envVariables\":[[\"NEXT_PUBLIC_CREATE_ENV\",\"PRODUCTION\"],[\"NEXT_PUBLIC_CREATE_APP_URL\",\"https://83997a8c-0f34-401a-a2c8-96c0b7c99561.created.app\"]],\"moduleType\":\"PAGE\"}]}]]}],[\"$\",\"$a\",null,{\"fallback\":null,\"children\":[\"$\",\"$a\",null,{\"fallback\":null,\"children\":[\"$\",\"$L16\",null,{\"reason\":\"next/dynamic\",\"children\":[\"$\",\"$L17\",null,{}]}]}]}]]\n"])</script></body></html>
